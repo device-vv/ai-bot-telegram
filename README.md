@@ -54,13 +54,24 @@ BOT_TOKEN=your_telegram_bot_token      # Get from @BotFather
 ADMIN_PASSWORD=your_secure_password    # Admin panel password
 OPENAI_API_KEY=your_api_key            # OpenAI API key
 API_BASE_URL=https://api.openai.com/v1 # API URL (optional)
-AI_MODEL=gpt-4.1-nano                  # AI model (optional)
+AI_MODEL=gpt-5-nano                  # AI model (optional)
 ```
 
 #### 5. Run the bot
 
+**Manual run:**
 ```bash
 python3 nova_bot.py
+```
+
+**Using scripts (Background mode):**
+```bash
+# Start the bot in background
+chmod +x start.sh stop.sh
+./start.sh
+
+# Stop the bot
+./stop.sh
 ```
 
 ### 📋 Commands
@@ -152,13 +163,24 @@ BOT_TOKEN=your_telegram_bot_token      # Получить у @BotFather
 ADMIN_PASSWORD=your_secure_password    # Пароль для доступа к админке
 OPENAI_API_KEY=your_api_key            # API ключ OpenAI
 API_BASE_URL=https://api.openai.com/v1 # URL API (опционально)
-AI_MODEL=gpt-4.1-nano                  # Модель AI (опционально)
+AI_MODEL=gpt-5-nano                  # Модель AI (опционально)
 ```
 
 #### 5. Запустите бота
 
+**Вручную:**
 ```bash
 python3 nova_bot.py
+```
+
+**С помощью скриптов (Фоновый режим):**
+```bash
+# Запустить бота в фоне
+chmod +x start.sh stop.sh
+./start.sh
+
+# Остановить бота
+./stop.sh
 ```
 
 ### 📋 Команды
@@ -197,6 +219,8 @@ python3 nova_bot.py
 nova-bot/
 ├── nova_bot.py       # Основной код бота
 ├── requirements.txt  # Зависимости Python
+├── start.sh          # Скрипт запуска
+├── stop.sh           # Скрипт остановки
 ├── .env.example      # Шаблон переменных окружения
 ├── .gitignore        # Исключения для Git
 ├── LICENSE           # Лицензия MIT
