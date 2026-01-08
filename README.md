@@ -13,7 +13,7 @@ AI-powered Telegram assistant with an electronic gradebook feature.
 - 💬 **AI Chat** — GPT-based conversations in private messages and groups
 - 🖼️ **Image Analysis** — Image descriptions via GPT-4 Vision
 - 🎤 **Speech Recognition** — Voice message transcription (Whisper)
-- 📄 **File Analysis** — Supports `.txt`, `.py`, `.js`, `.html`, `.css`, `.json`, `.xml`, `.md`, `.csv`
+- 📄 **File Analysis** — Supports `.txt`, `.md`, `.csv` and code (`.py`, `.js`, `.java`, `.cpp`, `.sql`, `.html`, etc.)
 - 📖 **Electronic Gradebook** — Homework and student tracking
 - 📢 **Broadcasting** — Send messages to all groups
 
@@ -122,7 +122,7 @@ AI-ассистент для Telegram с функциями электронно
 - 💬 **AI-чат** — общение с GPT в личных сообщениях и группах
 - 🖼️ **Анализ изображений** — описание картинок через GPT-4 Vision
 - 🎤 **Распознавание речи** — транскрипция голосовых сообщений (Whisper)
-- 📄 **Анализ файлов** — поддержка `.txt`, `.py`, `.js`, `.html`, `.css`, `.json`, `.xml`, `.md`, `.csv`
+- 📄 **Анализ файлов** — поддержка `.txt`, `.md`, `.csv` и кода (`.py`, `.js`, `.java`, `.cpp`, `.sql`, `.html` и др.)
 - 📖 **Электронный журнал** — учёт домашних заданий и студентов
 - 📢 **Рассылка** — отправка сообщений во все группы
 

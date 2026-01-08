@@ -1260,7 +1260,7 @@ class NovaBot:
             if doc.file_size > MAX_FILE_SIZE:
                 await msg.reply(f"❌ Файл > {MAX_FILE_SIZE//(1024*1024)} MB")
                 return
-            exts = ['.txt', '.py', '.js', '.html', '.css', '.json', '.xml', '.md', '.csv']
+            exts = ['.txt', '.md', '.py', '.js', '.html', '.css', '.java', '.cpp', '.cs', '.sql', '.php', '.go', '.rs', '.csv']
             if not any(doc.file_name.endswith(e) for e in exts):
                 await msg.reply(f"❌ Только: {', '.join(exts)}")
                 return
